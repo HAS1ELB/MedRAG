@@ -1,0 +1,109 @@
+[
+  {
+    "question": "Ce patient présente-t-il une pneumonie bactérienne ?",
+    "similar_cases": [
+      {
+        "case_name": "synthetic_covid",
+        "diagnosis": "COVID-19 suspect",
+        "similarity_score": 0.4345860481262207,
+        "biological_data": {
+          "CRP": "89 mg/L",
+          "GB": "4200/mm³",
+          "Lymphocytes": "12%",
+          "LDH": "487 U/L",
+          "D-Dimères": "1250 ng/mL"
+        }
+      },
+      {
+        "case_name": "pneumonia_1",
+        "diagnosis": "Pneumonie bactérienne",
+        "similarity_score": 0.41808339953422546,
+        "biological_data": {
+          "CRP": "156 mg/L",
+          "GB": "18500/mm³",
+          "Neutrophiles": "85%",
+          "Procalcitonine": "12.5 ng/mL"
+        }
+      },
+      {
+        "case_name": "normal_1",
+        "diagnosis": "Normal",
+        "similarity_score": 0.19897836446762085,
+        "biological_data": {
+          "CRP": "< 3 mg/L",
+          "GB": "6500/mm³",
+          "Hémoglobine": "14.2 g/dL",
+          "Plaquettes": "280000/mm³"
+        }
+      }
+    ],
+    "generated_response": "\n            **Diagnostic probable: Pneumonie bactérienne**\n            \n            **Analyse basée sur les cas similaires:**\n            - Présence d'opacité alvéolaire dense\n            - Bronchogramme aérique visible \n            - CRP fortement élevée (>150 mg/L)\n            - Hyperleucocytose avec neutrophilie\n            \n            **Recommandations:**\n            - Antibiothérapie probabiliste recommandée\n            - Surveillance clinique rapprochée\n            - Réévaluation à 48-72h\n            ",
+    "confidence_score": 0.4345860481262207
+  },
+  {
+    "question": "Les opacités sont-elles compatibles avec une infection virale ?",
+    "similar_cases": [
+      {
+        "case_name": "synthetic_covid",
+        "diagnosis": "COVID-19 suspect",
+        "similarity_score": 0.4267420172691345,
+        "biological_data": {
+          "CRP": "89 mg/L",
+          "GB": "4200/mm³",
+          "Lymphocytes": "12%",
+          "LDH": "487 U/L",
+          "D-Dimères": "1250 ng/mL"
+        }
+      },
+      {
+        "case_name": "pneumonia_1",
+        "diagnosis": "Pneumonie bactérienne",
+        "similarity_score": 0.2479272484779358,
+        "biological_data": {
+          "CRP": "156 mg/L",
+          "GB": "18500/mm³",
+          "Neutrophiles": "85%",
+          "Procalcitonine": "12.5 ng/mL"
+        }
+      },
+      {
+        "case_name": "synthetic_pneumonia",
+        "diagnosis": "À déterminer",
+        "similarity_score": 0.22390270233154297,
+        "biological_data": {}
+      }
+    ],
+    "generated_response": "\n            **Diagnostic probable: Pneumonie bactérienne**\n            \n            **Analyse basée sur les cas similaires:**\n            - Présence d'opacité alvéolaire dense\n            - Bronchogramme aérique visible \n            - CRP fortement élevée (>150 mg/L)\n            - Hyperleucocytose avec neutrophilie\n            \n            **Recommandations:**\n            - Antibiothérapie probabiliste recommandée\n            - Surveillance clinique rapprochée\n            - Réévaluation à 48-72h\n            ",
+    "confidence_score": 0.4267420172691345
+  },
+  {
+    "question": "Cette radiographie est-elle normale ?",
+    "similar_cases": [
+      {
+        "case_name": "synthetic_pneumonia",
+        "diagnosis": "À déterminer",
+        "similarity_score": 0.4925636947154999,
+        "biological_data": {}
+      },
+      {
+        "case_name": "synthetic_normal",
+        "diagnosis": "À déterminer",
+        "similarity_score": 0.4925636947154999,
+        "biological_data": {}
+      },
+      {
+        "case_name": "normal_1",
+        "diagnosis": "Normal",
+        "similarity_score": 0.4204508662223816,
+        "biological_data": {
+          "CRP": "< 3 mg/L",
+          "GB": "6500/mm³",
+          "Hémoglobine": "14.2 g/dL",
+          "Plaquettes": "280000/mm³"
+        }
+      }
+    ],
+    "generated_response": "\n            **Diagnostic: Radiographie normale**\n            \n            **Analyse basée sur les cas similaires:**\n            - Champs pulmonaires libres\n            - Silhouette cardiomédiastinale normale\n            - Paramètres biologiques dans les normes\n            \n            **Recommandations:**\n            - Pas de traitement spécifique\n            - Surveillance clinique standard\n            ",
+    "confidence_score": 0.4925636947154999
+  }
+]

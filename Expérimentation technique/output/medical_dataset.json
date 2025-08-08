@@ -1,0 +1,48 @@
+{
+  "normal_1": {
+    "image_path": "medical_images/normal_1.jpg",
+    "medical_report": "RADIOGRAPHIE THORACIQUE - FACE\n        \nPatient: M. Dupont, 45 ans\nDate: 15/12/2023\n\nTECHNIQUE: Radiographie thoracique de face en inspiration profonde.\n\nRÉSULTATS:\n- Champs pulmonaires libres, bien ventilés\n- Pas d'opacité parenchymateuse, pas d'épanchement pleural\n- Silhouette cardiomédiastinale normale\n- Structures osseuses normales\n- Coupoles diaphragmatiques régulières et mobiles\n\nCONCLUSION: Radiographie thoracique normale.\n\nDr. Martin - Radiologue",
+    "diagnosis": "Normal",
+    "biological_data": {
+      "CRP": "< 3 mg/L",
+      "GB": "6500/mm³",
+      "Hémoglobine": "14.2 g/dL",
+      "Plaquettes": "280000/mm³"
+    }
+  },
+  "pneumonia_1": {
+    "image_path": "medical_images/pneumonia_1.jpg",
+    "medical_report": "RADIOGRAPHIE THORACIQUE - FACE\n        \nPatient: Mme Dubois, 62 ans  \nDate: 18/12/2023\n\nTECHNIQUE: Radiographie thoracique de face.\n\nRÉSULTATS:\n- Opacité alvéolaire dense du lobe inférieur droit\n- Bronchogramme aérique visible\n- Effacement de l'hémi-coupole droite\n- Champ pulmonaire gauche libre\n- Silhouette cardiaque normale\n\nCONCLUSION: Pneumonie aiguë du lobe inférieur droit.\nCorrélation clinique et biologique recommandée.\n\nDr. Leroy - Radiologue",
+    "diagnosis": "Pneumonie bactérienne",
+    "biological_data": {
+      "CRP": "156 mg/L",
+      "GB": "18500/mm³",
+      "Neutrophiles": "85%",
+      "Procalcitonine": "12.5 ng/mL"
+    }
+  },
+  "synthetic_normal": {
+    "image_path": "medical_images/synthetic_normal.jpg",
+    "medical_report": "Radiographie thoracique - Analyse en cours",
+    "diagnosis": "À déterminer",
+    "biological_data": {}
+  },
+  "synthetic_pneumonia": {
+    "image_path": "medical_images/synthetic_pneumonia.jpg",
+    "medical_report": "Radiographie thoracique - Analyse en cours",
+    "diagnosis": "À déterminer",
+    "biological_data": {}
+  },
+  "synthetic_covid": {
+    "image_path": "medical_images/synthetic_covid.jpg",
+    "medical_report": "RADIOGRAPHIE THORACIQUE - FACE\n        \nPatient: M. Bernard, 58 ans\nDate: 20/12/2023\n\nTECHNIQUE: Radiographie thoracique de face.\n\nRÉSULTATS:\n- Opacités bilatérales en verre dépoli\n- Distribution périphérique prédominante\n- Atteinte des lobes inférieurs et moyens\n- Pas d'épanchement pleural\n- Silhouette cardiaque normale\n\nCONCLUSION: Aspect évocateur de pneumopathie virale.\nDans le contexte épidémiologique, COVID-19 à considérer.\n\nDr. Moreau - Radiologue",
+    "diagnosis": "COVID-19 suspect",
+    "biological_data": {
+      "CRP": "89 mg/L",
+      "GB": "4200/mm³",
+      "Lymphocytes": "12%",
+      "LDH": "487 U/L",
+      "D-Dimères": "1250 ng/mL"
+    }
+  }
+}

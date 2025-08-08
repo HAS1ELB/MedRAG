@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "experiment_date": "2025-08-07 19:05:39",
+    "title": "Expérimentation RAG Multimodal - Diagnostic Pathologies Pulmonaires",
+    "version": "1.0",
+    "author": "Hassan - Intellcap"
+  },
+  "dataset_stats": {
+    "total_cases": 5,
+    "real_images": 2,
+    "synthetic_images": 3,
+    "diagnoses_count": {
+      "Normal": 1,
+      "Pneumonie bactérienne": 1,
+      "À déterminer": 2,
+      "COVID-19 suspect": 1
+    }
+  },
+  "performance_metrics": {
+    "relevance_accuracy": 1.0,
+    "average_confidence": 0.46610798835754397,
+    "retrieval_diversity": 2.2,
+    "confidence_std": 0.0446058179107882
+  },
+  "cross_modal_correlation": -0.15959663794243278,
+  "embedding_stats": {
+    "text_dimension": 384,
+    "image_dimension": 768,
+    "normalization": "L2"
+  },
+  "next_steps": {
+    "immediate": "Comparaison des modèles candidats",
+    "priority_high": [
+      "Dataset plus large",
+      "Modèles médicaux spécialisés"
+    ],
+    "priority_medium": [
+      "Fusion multimodale",
+      "Métriques médicales"
+    ],
+    "priority_low": [
+      "Interface utilisateur",
+      "Monitoring"
+    ]
+  }
+}
