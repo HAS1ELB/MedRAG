@@ -2,3 +2,6 @@ __pycache__
 medrag-prototype
 medrag-streamlit
 utils
+datasets/
+*.tgz
+*.pdf
